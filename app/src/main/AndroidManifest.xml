@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMart"
+        android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:name=".bill_inner_main"></activity>
+        <activity android:name=".billAdapter.billMain" />
+        <activity android:name=".billMain" />
+        <activity
+            android:name=".todaysDeal"
+            android:label="@string/title_activity_todays_deal" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <activity android:name=".profile" />
+        <activity android:name=".wishlist" />
+        <activity
+            android:name=".cartPage"
+            android:label="Cart" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".scanResult" />
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ForgotPass" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.ProfileTheme" />
+        <activity
+            android:name=".logIn_Activity"
+            android:noHistory="true" />
+        <activity android:name=".Verification" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest>

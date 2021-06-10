@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478764043100",
+    "project_id": "smart-c2dbc",
+    "storage_bucket": "smart-c2dbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478764043100:android:a5d1ccc90fc03094400f99",
+        "android_client_info": {
+          "package_name": "com.example.smart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478764043100-af019n0ua6ap41ck6jct4fch2u6pgon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnApn_2awaXMooM71IdxlNJaFLaRpJMAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478764043100-af019n0ua6ap41ck6jct4fch2u6pgon1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
